@@ -3,8 +3,7 @@ import Logo from "./logo-component";
 class Header extends Component {
     render() {
         return (
-            <div>
-                Header component
+            <div className="container">
                 <Logo />
             </div>
         );
