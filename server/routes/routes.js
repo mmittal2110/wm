@@ -6,11 +6,13 @@ var userController  = require('../controllers/user-controllers')
 router.post('/register',userController.register)
 
 //resend otp
-router.post('/sendOtp', userController.sendOtp)
+router.post('/send-otp', userController.sendOtp)
+
 
 //verify otp
-
-
+router.post('/verify-otp', userController.verifyOtp)
+/*
 //login
+router.post('/login', userController.login)*/
 
 module.exports = router;
