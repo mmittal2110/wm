@@ -112,7 +112,9 @@ userController.register = function (req, res) {
 
 
 //login user
-userController.login = function(req,res)
+userController.login = function(req,res){
+
+}
 
 
 //send otp
