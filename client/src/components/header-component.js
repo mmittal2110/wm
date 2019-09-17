@@ -11,13 +11,15 @@ class Header extends Component {
                    </div>
                    <div className="navbar-section">
                         <ul className="navbar-ul">
-                            <li className="navbar-li"> Intro </li>
-                            <li className="navbar-li"> Home </li>
-                            <li className="navbar-li"> Pages </li>
-                            <li className="navbar-li"> Blogs </li>
-                            <li className="navbar-li"> Features  </li>
                             <li className="navbar-li">
-                                <button className="primary-btn">Login</button>
+                                <a className="li-anchors" href="#">Intro</a> </li>
+                            <li className="navbar-li">  <a className="li-anchors" href="#">Home</a> </li>
+                            <li className="navbar-li"> <a className="li-anchors" href="#">Pages</a>  </li>
+                            <li className="navbar-li"><a className="li-anchors" href="#">Blogs</a>   </li>
+                            <li className="navbar-li"><a className="li-anchors" href="#">Features</a>    </li>
+                            <li className="navbar-li"><a className="li-anchors" href="/user/login">Login</a>    </li>
+                            <li className="navbar-li">
+                                <button className="primary-btn"><a className="li-anchors-white" href="/user/register">Start Free Trial</a> </button>
                             </li>
                         </ul>
                    </div>
